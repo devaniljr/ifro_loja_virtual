@@ -52,7 +52,7 @@ section {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5px;
-    padding: 10px; 
+    padding: 10px;
     width: 80%;
 }
 
@@ -67,12 +67,51 @@ section {
     width: 100%;
 }
 
+.produto_estrelas {
+    margin: 15px;
+}
+
 .checked {
     color: orange;
 }
 
 aside {
     width: 20%;
+}
+
+aside h1 {
+    margin: 0;
+}
+
+aside hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.produto_preco_desconto {
+    display: inline;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.produto_foto img {
+    width: 200px;
+    height: 200px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 button {
@@ -92,4 +131,51 @@ button:hover {
 a {
     text-decoration: none;
     color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+.footer-contact ul li i {
+    margin-right: 5px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-copyright p {
+    color: #333;
 }
